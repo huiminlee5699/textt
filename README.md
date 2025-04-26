@@ -1,0 +1,2 @@
+# textt
+Text Transparency Condition 
