@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>System Card Viewer</title>
+    <style>
+        /* Reset all margins and paddings */
+        * {
+            margin: 0 !important;
+            padding: 0 !important;
+            box-sizing: border-box !important;
+        }
+        
+        /* Ensure HTML and body take up full space */
+        html, body {
+            width: 100% !important;
+            height: 100% !important;
+            overflow: hidden !important;
+            position: relative !important;
+        }
+        
+        /* Make iframe fill all available space with higher specificity */
+        iframe,
+        iframe[allowfullscreen],
+        body > iframe {
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+            width: 100% !important;
+            height: 100% !important;
+            border: none !important;
+            outline: none !important;
+            display: block !important;
+        }
+    </style>
+</head>
+<body>
+    <iframe 
+        src="https://www.figma.com/proto/haXTVr4wZaeSC344BqDBpR/Text-Transparency-Card?page-id=0%3A1&node-id=1-33&p=f&viewport=144%2C207%2C0.47&t=Hp8ZCw5Fg7ahsiq1-8&scaling=min-zoom&content-scaling=fixed&hide-ui=1" 
+        allowfullscreen>
+    </iframe>
+</body>
+</html>
